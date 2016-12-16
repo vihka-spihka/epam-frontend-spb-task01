@@ -1,201 +1,161 @@
 <!DOCTYPE html>
-<html lang = "ru">
+<html lang="ru">
 	<head>
-		<meta charset = "utf-8">
-		<meta name = "author" content = "Viktoriia Kniazeva">
+		<meta charset="utf-8">
+		<meta name="author" content="Viktoriia Kniazeva">
 		<title>Макет</title>
 	</head>
 	<body>
-		<!-- It`s necessary to specify a <h1> header level -->
-		<main id = "siteBody">
-			<img src = "img/avatar.png" alt = "">
+		<main class="siteBody">
+			<h1><img src="img/avatar.png" alt="Avatar"></h1>
 
 			<!-- About me -->
-			<section id = "siteBody-aboutMe">
-				<h2>ОБО МНЕ</h2>
+			<section class="siteBody__section section__aboutMe">
+				<h2>Обо мне</h2>
 					<p>Привет! Меня зовут Иван Белобородов. Я родился и вырос в Ижевске, столице Удмуртской Республики. Последние несколько лет занимаюсь проектированием и дизайном мобильных приложений на базе iOS и Android. В данный момент живу в Москве и ищу постоянное место работы.</p>
 					<p>Испытываю страсть к девайсам, имеющим touch-интерфейс, классическим мотоциклам, немецкому пиву, английской музыке и французскому кино.</p>
 
-				<img src = "img/separator.png" alt = "">
-
-				<ul id = "siteBody-aboutMe-list">
-					<li class = "siteBody-aboutMe-list-item">
-						<img src = "img/anchor_icon.png" alt = "">
-						<a href = "" title = "">beliv.net</a>
+				<img src="img/separator.png" alt="Separator">
+				<ul>
+					<li>
+						<img src="img/anchor_icon.png" alt="Anchor icon">
+						<a href="http://beliv.net" title="Personal site">beliv.net</a>
 					</li>
-					<li class = "siteBody-aboutMe-list-item">
-						<img src = "img/facebook_icon.png" alt = "">
-						<a href = "" title = "">ivan.beloborodov</a>
+					<li>
+						<img src="img/facebook_icon.png" alt="Facebook icon">
+						<a href="http://facebook.com/ivan.beloborodov" title="Facebook site">ivan.beloborodov</a>
 					</li>
-					<li class = "siteBody-aboutMe-list-item">
-						<img src = "img/twitter_icon.png" alt = "">
-						<a href = "" title = "">@beliv</a>
+					<li>
+						<img src="img/twitter_icon.png" alt="Twitter icon">
+						<a href="http://twitter.com/@beliv" title="Twitter site">@beliv</a>
 					</li>
-					<li class = "siteBody-aboutMe-list-item">
-						<img src = "img/ball_icon.png" alt = "">
-						<a href = "" title = "">dribbble.com/beliv</a>
+					<li>
+						<img src="img/ball_icon.png" alt="Dribbble icon">
+						<a href="http://dribbble.com/beliv" title="Dribbble site">dribbble.com/beliv</a>
 					</li>
-					<li class = "siteBody-aboutMe-list-item">
-						<img src = "img/revision_icon.png" alt = "">
-						<a href = "" title = "">revision.ru/a/beliv</a>
+					<li>
+						<img src="img/revision_icon.png" alt="Revision icon">
+						<a href="http://revision.ru/a/beliv" title="Revision site">revision.ru/a/beliv</a>
 					</li>
 				</ul>
 			</section>
 
 			<!-- Experience -->
-			<section id = "siteBody-experience">
-				<h2>ОПЫТ РАБОТЫ</h2>
-				<img src = "img/steps.png" alt = "">
-				<ul id = "siteBody-experience-list">
-					<li class = "siteBody-experience-list-item">
-						<h3 class = "siteBody-experience-list-item-header">
-							Центр Высоких Технологий
-						</h3>
-							<p class = "siteBody-experience-list-item-position">
-								UX Дизайнер
-							</p>
-							<p class = "siteBody-experience-list-item-dates">
-								ЯНВАРЬ 2011 - ИЮЛЬ 2013
-							</p>
+			<section class="siteBody__section section__experience">
+				<h2>Опыт работы</h2>
+				<img src="img/steps.png" alt = "Time scale">
+				<ul>
+					<li>
+						<h3>Центр Высоких Технологий</h3>
+						<p>UX Дизайнер</p>
+						<date>январь 2011 - июль 2013</date>
 					</li>
-					<li class = "siteBody-experience-list-item">
-						<h3 class = "siteBody-experience-list-item-header">
-							ООО "БИТ-Мастер"
-						</h3>
-							<p class = "siteBody-experience-list-item-position">
-								Дизайнер мобильных интерфейсов
-							</p>
-							<p class = "siteBody-experience-list-item-dates">
-								АВГУСТ 2012 - ИЮНЬ 2013 (ВНЕШТАТНО)
-							</p>
+					<li>
+						<h3>ООО "БИТ-Мастер"</h3>
+						<p>Дизайнер мобильных интерфейсов</p>
+						<date>август 2012 - июнь 2013 (ВНЕШТАТНО)</date>
 					</li>
-					<li class = "siteBody-experience-list-item">
-						<h3 class = "siteBody-experience-list-item-header">
-							Fastdev
-						</h3>
-							<p class = "siteBody-experience-list-item-position">
-								Дизайнер мобильных интерфейсов
-							</p>
-							<p class = "siteBody-experience-list-item-dates">
-								АПРЕЛЬ 2012 - ИЮНЬ 2012 (ВНЕШТАТНО)
-							</p>
+					<li>
+						<h3>Fastdev</h3>
+						<p>Дизайнер мобильных интерфейсов</p>
+						<date>апрель 2012 - июнь 2012 (ВНЕШТАТНО)</date>
 					</li>
-					<li class = "siteBody-experience-list-item">
-						<h3 class = "siteBody-experience-list-item-header">
-							ООО "Танго Телеком"
-						</h3>
-							<p class = "siteBody-experience-list-item-position">
-								Дизайнер веб и мобильных интерфейсов
-							</p>
-							<p class = "siteBody-experience-list-item-dates">
-								СЕНТЯБРЬ 2010 - ЯНВАРЬ 2011 (ВНЕШТАТНО)
-							</p>
+					<li>
+						<h3>ООО "Танго Телеком"</h3>
+						<p>Дизайнер веб и мобильных интерфейсов</p>
+						<date>сентябрь 2010 - январь 2011 (ВНЕШТАТНО)</date>
 					</li>
-					<li class = "siteBody-experience-list-item">
-						<h3 class = "siteBody-experience-list-item-header">
-							Фрилансер
-						</h3>
-							<p class = "siteBody-experience-list-item-position">
-								Веб-дизайнер
-							</p>
-							<p class = "siteBody-experience-list-item-dates">
-								МАРТ 2009 - ЯНВАРЬ 2011
-							</p>
+					<li>
+						<h3>Фрилансер</h3>
+						<p>Веб-дизайнер</p>
+						<date>март 2009 - январь 2011</date>
 					</li>
 				</ul>
 			</section>
 
 			<!-- Skills -->
-			<section id = "siteBody-skills">
-				<h2>НАВЫКИ</h2>
-				<hr>
-				<ul id = "siteBody-skills-list">
-					<li class = "siteBody-skills-list-item-percentage">
-						<h3 class = "siteBody-skills-list-item-percentage-header">
-							User Experience
-						</h3>
-						<p class = "siteBody-skills-list-item-percentage-dates">С 2010 ГОДА</p>
-						<progress value = "55" max = "100" class = "siteBody-skills-list-item-percentage-progressbar">55%</progress>
+			<section class="siteBody__section section__skills">
+				<h2>Навыки</h2>
+				<ul>
+					<li>
+						<h3>User Experience</h3>
+						<date>с 2010 года</date>
+						<progress value="55" max="100">55%</progress>
 					</li>
-					<li class = "siteBody-skills-list-item-percentage">
-						<h3 class = "siteBody-skills-list-item-percentage-header">
-							Дизайн мобильных интерфейсов
-						</h3>
-						<p class = "siteBody-skills-list-item-percentage-dates">С 2011 ГОДА</p>
-						<progress value = "80" max = "100" class = "siteBody-skills-list-item-percentage-progressbar">80%</progress>
+					<li>
+						<h3>Дизайн мобильных интерфейсов</h3>
+						<date>с 2011 года</date>
+						<progress value="80" max="100">80%</progress>
 					</li>
-					<li class = "siteBody-skills-list-item-percentage">
-						<h3 class = "siteBody-skills-list-item-percentage-header">
-							Веб-интерфейсы
-						</h3>
-						<p class = "siteBody-skills-list-item-percentage-dates">С 2010 ГОДА</p>
-						<progress value = "60" max = "100" class = "siteBody-skills-list-item-percentage-progressbar">60%</progress>
+					<li>
+						<h3>Веб-интерфейсы</h3>
+						<date>с 2010 года</date>
+						<progress value="60" max="100">60%</progress>
 					</li>
-					<li class = "siteBody-skills-list-item">
+					<li>
 						Базовые знания HTML &amp; CSS
 					</li>
-					<li class = "siteBody-skills-list-item">
+					<li>
 						Клубный фотограф
 					</li>
-					<li class = "siteBody-skills-list-item">
+					<li>
 						Интерфейсы для Smart TV
 					</li>
-					<li class = "siteBody-skills-list-item">
+					<li>
 						7 проектов в сфере такси за 3 года
 					</li>
 				</ul>
 			</section>
 
 			<!-- Tools -->
-			<section id = "siteBody-tools">
-				<h2>ИНСТРУМЕНТЫ</h2>
-				<hr>
-				<section id = "siteBody-tools-examples">
-					<ul id = "siteBody-tools-examples-list">
-						<li class = "siteBody-tools-examples-list-percentage">
-							<progress value = "90" max = "100">PHOTOSHOP</progress>
+			<section class="siteBody__section section__tools">
+				<h2>Инструменты</h2>
+				<section>
+					<ul>
+						<li>
+							<progress value="90" max="100">Photoshop</progress>
 						</li>
-						<li class = "siteBody-tools-examples-list-percentage">
-							<progress value = "75" max = "100">ILLUSTRATOR</progress> <!-- "ILLUSTATOR" in original version -->
+						<li>
+							<progress value="75" max="100">Illustrator</progress>
 						</li>
-						<li class = "siteBody-tools-examples-list-percentage">
-							<progress value = "40" max = "100">INDESIGN</progress>
+						<li>
+							<progress value="40" max="100">Indesign</progress>
 						</li>
-						<li class = "siteBody-tools-examples-list-percentage">
-							<progress value = "10" max = "100">SKETCH</progress>
+						<li>
+							<progress value="10" max="100">Sketch</progress>
 						</li>
-						<li class = "siteBody-tools-examples-list-percentage">
-							<progress value = "45" max = "100">AXURE</progress>
+						<li>
+							<progress value="45" max="100">Axure</progress>
 						</li>
 					</ul>
 				</section>
-				<section id = "siteBody-tools-activity">
+				<section>
 					<table>
-						<caption>АКТИВНОСТЬ</caption>
+						<caption>Активность</caption>
 						<tbody>
 							<tr>
 								<td>Balsamiq Mockups</td>
-								<td>АВГУСТ 2013</td>
+								<td>август 2013</td>
 							</tr>
 							<tr>
 								<td>Diablo III</td>
-								<td>29 СЕНТЯБРЯ</td>
+								<td>29 сентября</td>
 							</tr>
 							<tr>
 								<td>iA Writer</td>
-								<td>ПОЗАВЧЕРА</td>
+								<td>позавчера</td>
 							</tr>
 							<tr>
 								<td>Lightroom 4</td>
-								<td>СЕНТЯБРЬ 2013</td>
+								<td>сентябрь 2013</td>
 							</tr>
 							<tr>
 								<td>Skala Preview &amp; View</td>
-								<td>ВЧЕРА</td>
+								<td>вчера</td>
 							</tr>
 							<tr>
 								<td>Xcode</td>
-								<td>МАЙ 2013</td>
+								<td>май 2013</td>
 							</tr>
 						</tbody>
 					</table>
@@ -203,111 +163,84 @@
 			</section>
 
 			<!-- Recent projects -->
-			<section id = "siteBody-recentProjects">
-				<h2>ПОСЛЕДНИЕ ПРОЕКТЫ</h2>
-				<hr>
-				<ul id = "siteBody-recentProjects-list">
-					<li class = "siteBody-recentProjects-list-item">
+			<section class="siteBody__section section__recentProjects">
+				<h2>Последние проекты</h2>
+				<ul>
+					<li>
 						<figure>
 							<figcaption>
-								<h3 class = "siteBody-recentProjects-list-item-header">
-									TaxiCaller
-								</h3>
-								<p class = "siteBody-recentProjects-list-item-dates">
-									ДЕКАБРЬ 2012 - МАРТ 2013
-								</p>
+								<h3>TaxiCaller</h3>
+								<date>декабрь 2012 - март 2013</date>
 							</figcaption>
-							<img src = "img/taxiCaller.png" alt = "" class = "siteBody-recentProjects-list-item-img">
+							<img src="img/taxiCaller.png" alt="Taxi caller project">
 						</figure>
 					</li>
-					<li class = "siteBody-recentProjects-list-item">
+					<li>
 						<figure>
 							<figcaption>
-								<h3 class = "siteBody-recentProjects-list-item-header">
-									Check, please!
-								</h3>
-								<p class = "siteBody-recentProjects-list-item-dates">
-									МАЙ 2013 - ...
-								</p>
+								<h3>Check, please!</h3>
+								<date>май 2013 - ...</date>
 							</figcaption>
-							<img src = "img/checkPlease.png" alt = "" class = "siteBody-recentProjects-list-item-img">
+							<img src="img/checkPlease.png" alt="Check please project">
 						</figure>
 					</li>
-					<li class = "siteBody-recentProjects-list-item">
+					<li>
 						<figure>
 							<figcaption>
-								<h3 class = "siteBody-recentProjects-list-item-header">
-									Izhevsk.ru
-								</h3>
-								<p class = "siteBody-recentProjects-list-item-dates">
-									НОЯБРЬ 2012 - ФЕВРАЛЬ 2013
-								</p>
+								<h3>Izhevsk.ru</h3>
+								<date>ноябрь 2012 - февраль 2013</date>
 							</figcaption>
-							<img src = "img/izhevsk.png" alt = "" class = "siteBody-recentProjects-list-item-img">
+							<img src="img/izhevsk.png" alt="Izhevsk project">
 						</figure>
 					</li>
-					<li class = "siteBody-recentProjects-list-item">
+					<li>
 						<figure>
 							<figcaption>
-								<h3 class = "siteBody-recentProjects-list-item-header">
-									RP.com
-								</h3>
-								<img src = "img/scull.png" alt = "">
-								<p class = "siteBody-recentProjects-list-item-dates">
-									ИЮНЬ 2012 - МАРТ 2013
-								</p>
+								<h3>RP.com</h3>
+								<img src="img/scull.png" alt="Dead project">
+								<date>июнь 2012 - март 2013</date>
 							</figcaption>
-							<img src = "img/RP.png" alt = "" class = "siteBody-recentProjects-list-item-img">
+							<img src="img/RP.png" alt="RP project">
 						</figure>
 					</li>
 				</ul>
 			</section>
 
 			<!-- Interests -->
-			<section id = "siteBody-interests">
-				<h2>ИНТЕРЕСЫ</h2>
-				<hr>
-				<ul id = "siteBody-interests-list">
-					<li class = "siteBody-interests-list-item">
+			<section class="siteBody__section section__interests">
+				<h2>Интересы</h2>
+				<ul>
+					<li>
 						<figure>
-							<figcaption class = "siteBody-interests-list-item-caption">
-								Музыка
-							</figcaption>
-							<img src = "img/music.png" alt = "" class = "siteBody-interests-list-item-img">
+							<figcaption>Музыка</figcaption>
+							<img src="img/music.png" alt="Music">
 						</figure>
 					</li>
-					<li class = "siteBody-interests-list-item">
+					<li>
 						<figure>
-							<figcaption class = "siteBody-interests-list-item-caption">
-								Мотоциклы
-							</figcaption>
-							<img src = "img/motorbike.png" alt = "" class = "siteBody-interests-list-item-img">
+							<figcaption>Мотоциклы</figcaption>
+							<img src="img/motorbike.png" alt="Motorbike">
 						</figure>
 					</li>
-					<li class = "siteBody-interests-list-item">
+					<li>
 						<figure>
-							<figcaption class = "siteBody-interests-list-item-caption">
-								Кулинария
-							</figcaption>
-							<img src = "img/cookery.png" alt = "" class = "siteBody-interests-list-item-img">
+							<figcaption>Кулинария</figcaption>
+							<img src="img/cookery.png" alt="Coocery">
 						</figure>
 					</li>
-					<li class = "siteBody-interests-list-item">
+					<li>
 						<figure>
-							<figcaption class = "siteBody-interests-list-item-caption">
-								Велоспорт
-							</figcaption>
-							<img src = "img/bicycle.png" alt = "" class = "siteBody-interests-list-item-img">
+							<figcaption>Велоспорт</figcaption>
+							<img src="img/bicycle.png" alt="Bicycle">
 						</figure>
 					</li>
 				</ul>
 			</section>
 		</main>
 
-		<footer id = "siteFooter">
-			<h2 id = "siteFooter-header">That`s all, folks!</h2>
-			<hr>
-			<img src = "img/footerImg.png" alt = "" id = "siteFooter-img">
+		<footer id="siteFooter">
+			<h2 id="siteFooter__header">That`s all, folks!</h2>
+			<img src="img/footerImg.png" alt="Footer picture: Bill Murray" class="siteFooter__img">
 		</footer>
 	</body>
 </html>
